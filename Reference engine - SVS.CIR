@@ -1,0 +1,9073 @@
+[General]
+Program Version=GasTurb 12
+Date of Version=23/dic./2016
+Engine Type No=15
+Engine Name=Intercooled Recuperated Turbofan
+Booster Spool=0
+Combustors=0
+LevelOfDetail=1
+
+[Options]
+MapInterpolation=0
+dTInterpolation=0
+CloseOffDesignWarning=0
+DeltaComprEffPqPconst=1
+Trapezoid Top Width=0.2
+
+[Units]
+SI=1
+Kelvin=1
+Rankine=1
+
+[Fuel]
+Fuel Type=Generic
+
+[Input]
+P2q1    =0.997
+SP2q1Byp=1
+ZP21q2  =2.09114442786483
+ZP13q2  =2.89859134378357
+ZP24q21 =1.06079905997211
+ZP3q25  =23
+P18q16  =0.988
+W2R_std =303.496708201984
+BPR_des =4.1
+T4_D    =1888
+e34ds   =0.999499976634979
+e34C    =1.60000002384186
+FHV     =43.1158
+WBLDq21 =0
+WLkBq25 =0
+ZWBLD   =0
+ZWBLq25 =0
+hr_bld  =1
+WLkLPq25=0.00499999988824129
+stg_HPT =1
+WCHN1q25=0.05
+WCHR1q25=0.06
+WCHN2q25=0
+WCHR2q25=0
+DmCl_HT =0
+stg_IPT =1
+WCIN1q25=0.02
+WCIR1q25=0.01
+WCIN2q25=0
+WCIR2q25=0
+Hr_IPT_C=0.600000023841858
+stg_LPT =3
+WLCLq25 =0.00999999977648258
+Hr_LPT_C=0.699999988079071
+WLkByp  =0
+PWX     =47
+e_mech_H=0.980000019073486
+e_mech_I=1
+e_mech_L=1
+P4q35   =0.949999988079071
+P44q43_r=0.98
+P48q47_r=0.99
+P6q5    =0.995
+InPar1  =1
+InPar2  =1
+InPar3  =1
+InPar4  =1
+InPar5  =1
+InPar6  =1
+InPar7  =1
+InPar8  =1
+InPar9  =1
+InPar10 =1
+InPar11 =1
+InPar12 =1
+InPar13 =1
+InPar14 =1
+InPar15 =1
+InPar16 =1
+InPar17 =1
+InPar18 =1
+InPar19 =1
+InPar20 =1
+InPar21 =1
+InPar22 =1
+InPar23 =1
+InPar24 =1
+InPar25 =1
+InPar26 =1
+InPar27 =1
+InPar28 =1
+InPar29 =1
+InPar30 =1
+InPar31 =1
+InPar32 =1
+InPar33 =1
+InPar34 =1
+InPar35 =1
+InPar36 =1
+InPar37 =1
+InPar38 =1
+InPar39 =1
+InPar40 =1
+InPar41 =1
+InPar42 =1
+InPar43 =1
+InPar44 =1
+InPar45 =1
+InPar46 =1
+InPar47 =1
+InPar48 =1
+InPar49 =1
+InPar50 =1
+InPar51 =1
+InPar52 =1
+InPar53 =1
+InPar54 =1
+InPar55 =1
+InPar56 =1
+InPar57 =1
+InPar58 =1
+InPar59 =1
+InPar60 =1
+InPar61 =1
+InPar62 =1
+InPar63 =1
+InPar64 =1
+InPar65 =1
+InPar66 =1
+InPar67 =1
+InPar68 =1
+InPar69 =1
+InPar70 =1
+InPar71 =1
+InPar72 =1
+InPar73 =1
+InPar74 =1
+InPar75 =1
+InPar76 =1
+InPar77 =1
+InPar78 =1
+InPar79 =1
+InPar80 =1
+InPar81 =1
+InPar82 =1
+InPar83 =1
+InPar84 =1
+InPar85 =1
+InPar86 =1
+InPar87 =1
+InPar88 =1
+InPar89 =1
+InPar90 =1
+InPar91 =1
+InPar92 =1
+InPar93 =1
+InPar94 =1
+InPar95 =1
+InPar96 =1
+InPar97 =1
+InPar98 =1
+InPar99 =1
+SDES    =2
+SMODE   =1
+ZXN_HPC =1
+ZT4     =1888
+beta_HPC=0.5
+b_d_HPC =0.5
+ZXN_IPC =1
+beta_IPC=0.400000005960464
+b_d_IPC =0.400000005960464
+ZXN_LPC =1
+beta_LPC=0.5
+b_d_LPC =0.5
+beta_HPT=0.5
+beta_IPT=0.5
+beta_LPT=0.5
+ZT35q3  =1.10951990723744
+ZBPR    =4.1
+dist_P  =0
+dist_T  =0
+sect_Ang=60
+CouplFac=0
+d_W_LPC =0
+d_e_LPCo=0
+d_e_LPCi=0
+d_W_IPC =0
+d_e_IPC =0
+d_W_HPC =0
+d_e_HPC =0
+d_VG    =0
+d_W41R  =0
+d_e_HPT =0
+d_eHPTqN=0
+d_W45R  =0
+d_e_IPT =0
+d_eIPTqN=0
+d_W48R  =0
+d_e_LPT =0
+d_eLPTqN=0
+d_A8    =0
+d_A18   =0
+d_P25q24=0
+d_P4q3  =0
+d_P44q43=0
+d_P48q47=0
+d_P6q5  =0
+d_P16q13=0
+ZPLA    =0
+dCommand=0
+TODerate=0
+MCDerate=0
+AssTemp =0
+dIdleCom=0
+inert_L =470.999193342911
+inert_I =48.5088350339974
+inert_H =6.25215090265505
+N0_PLA  =0.400000005960464
+N1_PLA  =1.10000002384186
+c_prop  =0.200000002980232
+c_int   =0
+c_diff  =0
+pwx1    =150
+zwbld1  =0.999999940395355
+far_L   =0.00499999988824129
+far_H   =0.0350000001490116
+N_dot_l =0.0399999991059303
+N_dot_h =0.0399999991059303
+tm_const=0
+WF_const=0
+Gain    =1
+SAmbient=1
+alt     =12000
+dtamb   =0
+humid   =0
+XM      =0.800000011920929
+ZT1     =288.149993896484
+ZP1     =101.324996948242
+ZPamb   =101.324996948242
+Zhumid  =0
+SEffLC  =1
+E221is  =0.793103448275862
+E213is  =0.94
+E221pol =0.899999976158142
+E213pol =0.899999976158142
+e221    =0.870000004768372
+NStgLPC =1
+FLossLPC=1
+XMexLC  =0.5
+RhqRtLC =0.5
+t_c_LC  =0.5
+d_ec_LC =2
+SLPCD   =2
+CXN_L   =4000
+u_t_LC  =480
+rr_i_LC =0.349999994039536
+XM_i_LC =0.65
+d2qd_C  =1
+d_min_LC=0
+SEffIC  =1
+E2124is =0.89
+E2124pol=0.899999976158142
+NStgIPC =3
+FLossIPC=1
+XMexIC  =0.400000005960464
+RhqRtIC =0.5
+t_c_IC  =0.300000011920929
+d_ec_IC =2
+SIPCD   =1
+CXN_I   =7500
+u_t_IC  =350
+rr_i_IC =0.600000023841858
+XM_i_IC =0.449999988079071
+d_min_IC=0
+SEffHC  =1
+E253is  =0.9
+E253pol =0.899999976158142
+NStgHPC =5
+FLossHPC=1
+XMexHC  =0.300000011920929
+RhqRtHC =0.899999976158142
+t_c_HC  =0.200000002980232
+d_ec_HC =2
+SHPCD   =1
+CXN_H   =16000
+u_t_HC  =440
+rr_i_HC =0.600000023841858
+XM_i_HC =0.550000011920929
+d_min_HC=0
+SEffHT  =1
+E442is  =0.93
+E442pol =0.899999976158142
+dmin_HT =0.550000011920929
+dmex_HT =0.550000011920929
+rrlex_HT=0.75
+VRatioHT=1.04999995231628
+kloss_HT=0.349999994039536
+ceffclHT=0.0500000007450581
+XM43_ref=0.5
+SHTClr  =1
+t_c_HT  =0.100000001490116
+d_ec_HT =2
+SEffIT  =1
+E4546is =0.94
+E4546pol=0.899999976158142
+dmin_IT =0.5
+dmex_IT =0.600000023841858
+rrlex_IT=0.600000023841858
+VRatioIT=1
+kloss_IT=0.349999994039536
+ceffclIT=0
+XM47_ref=0.5
+SEffLT  =1
+E485is  =0.95
+E485pol =0.899999976158142
+w_EGV   =1
+dmin_LT =0.900000035762787
+dmex_LT =1.29999995231628
+rrlex_LT=0.699999988079071
+VRatioLT=1
+kloss_LT=0.349999994039536
+ceffclLT=0
+STestAn =1
+P13_m   =51.064998626709
+T13_m   =292.790008544922
+P21_m   =37.9339981079102
+T21_m   =266.339996337891
+P24_m   =113.802001953125
+T24_m   =383.019989013672
+P3_m    =446.102996826172
+T3_m    =514.299987792969
+Wf_m    =0.529399991035461
+P43_m   =235.707000732422
+P47_m   =163.992004394531
+P5_m    =39.1339988708496
+SIntCool=2
+P25q24  =0.980000019073486
+e_intclr=0.600000023841858
+P25q24cl=0.980000019073486
+P14q13  =0.990000009536743
+WIntcq13=0.200000002980232
+SExchr  =2
+e_exchr =0.699999988079071
+P35q3   =0.980000019073486
+P7q6    =0.970000028610229
+e_ex_ds =111111
+P35q3ds =1
+P7q6ds  =1
+SNzCalc =2
+CFG8    =1
+CFG18   =1
+ang8ds  =10
+ang18ds =12
+ZCFG8   =1
+ZCFG18  =1
+ZCD8    =0.997
+ZCD18   =0.997
+SOpt_Ld =1
+ZPWReqLd=0
+T1_Lf   =288.149993896484
+P1_Lf   =101.324996948242
+Pamb_Lf =101.324996948242
+etrLf   =1
+WRdsLf  =111111
+PqPdsLf =111111
+EdsLf   =111111
+SpdDsLf =1
+BetaDsLf=0.5
+angVGLf =0
+d_W_VGLf=1
+d_P_VGLf=1
+d_E_VGLf=0.00999999977648258
+dANozzLf=0
+T1_Ld   =288.149993896484
+P1_Ld   =101.324996948242
+etrLd   =1
+WRdsLd  =111111
+PqPdsLd =111111
+EdsLd   =111111
+SpdDsLd =1
+BetaDsLd=0.5
+BetaLd  =0.5
+angVGLd =0
+d_W_VGLd=1
+d_P_VGLd=1
+d_E_VGLd=0.00999999977648258
+SLoad=0
+LoadedSpoolName=Disconnected
+
+[InputShow]
+P2q1    =2
+SP2q1Byp=2
+ZP21q2  =3
+ZP13q2  =3
+ZP24q21 =3
+ZP3q25  =3
+P18q16  =1
+W2R_std =3
+BPR_des =3
+T4_D    =3
+e34ds   =1
+e34C    =1
+FHV     =2
+WBLDq21 =1
+WLkBq25 =1
+ZWBLD   =2
+ZWBLq25 =2
+hr_bld  =1
+WLkLPq25=1
+stg_HPT =3
+WCHN1q25=1
+WCHR1q25=1
+WCHN2q25=1
+WCHR2q25=1
+DmCl_HT =3
+stg_IPT =3
+WCIN1q25=1
+WCIR1q25=1
+WCIN2q25=1
+WCIR2q25=1
+Hr_IPT_C=3
+stg_LPT =3
+WLCLq25 =1
+Hr_LPT_C=3
+WLkByp  =1
+PWX     =2
+e_mech_H=1
+e_mech_I=1
+e_mech_L=1
+P4q35   =1
+P44q43_r=1
+P48q47_r=1
+P6q5    =1
+InPar1  =3
+InPar2  =3
+InPar3  =3
+InPar4  =3
+InPar5  =3
+InPar6  =3
+InPar7  =3
+InPar8  =3
+InPar9  =3
+InPar10 =3
+InPar11 =3
+InPar12 =3
+InPar13 =3
+InPar14 =3
+InPar15 =3
+InPar16 =3
+InPar17 =3
+InPar18 =3
+InPar19 =3
+InPar20 =3
+InPar21 =3
+InPar22 =3
+InPar23 =3
+InPar24 =3
+InPar25 =3
+InPar26 =3
+InPar27 =3
+InPar28 =3
+InPar29 =3
+InPar30 =3
+InPar31 =3
+InPar32 =3
+InPar33 =3
+InPar34 =3
+InPar35 =3
+InPar36 =3
+InPar37 =3
+InPar38 =3
+InPar39 =3
+InPar40 =3
+InPar41 =3
+InPar42 =3
+InPar43 =3
+InPar44 =3
+InPar45 =3
+InPar46 =3
+InPar47 =3
+InPar48 =3
+InPar49 =3
+InPar50 =3
+InPar51 =3
+InPar52 =3
+InPar53 =3
+InPar54 =3
+InPar55 =3
+InPar56 =3
+InPar57 =3
+InPar58 =3
+InPar59 =3
+InPar60 =3
+InPar61 =3
+InPar62 =3
+InPar63 =3
+InPar64 =3
+InPar65 =3
+InPar66 =3
+InPar67 =3
+InPar68 =3
+InPar69 =3
+InPar70 =3
+InPar71 =3
+InPar72 =3
+InPar73 =3
+InPar74 =3
+InPar75 =3
+InPar76 =3
+InPar77 =3
+InPar78 =3
+InPar79 =3
+InPar80 =3
+InPar81 =3
+InPar82 =3
+InPar83 =3
+InPar84 =3
+InPar85 =3
+InPar86 =3
+InPar87 =3
+InPar88 =3
+InPar89 =3
+InPar90 =3
+InPar91 =3
+InPar92 =3
+InPar93 =3
+InPar94 =3
+InPar95 =3
+InPar96 =3
+InPar97 =3
+InPar98 =3
+InPar99 =3
+alt     =2
+dtamb   =2
+humid   =2
+XM      =2
+ZT1     =2
+ZP1     =2
+ZPamb   =2
+Zhumid  =2
+E221is  =3
+E213is  =3
+E221pol =3
+E213pol =3
+e221    =3
+NStgLPC =3
+FLossLPC=3
+XMexLC  =3
+RhqRtLC =3
+t_c_LC  =3
+d_ec_LC =3
+CXN_L   =3
+u_t_LC  =3
+rr_i_LC =3
+XM_i_LC =3
+d2qd_C  =3
+d_min_LC=3
+E2124is =3
+E2124pol=3
+NStgIPC =3
+FLossIPC=3
+XMexIC  =3
+RhqRtIC =3
+t_c_IC  =3
+d_ec_IC =3
+CXN_I   =3
+u_t_IC  =3
+rr_i_IC =3
+XM_i_IC =3
+d_min_IC=3
+E253is  =3
+E253pol =3
+NStgHPC =3
+FLossHPC=3
+XMexHC  =3
+RhqRtHC =3
+t_c_HC  =3
+d_ec_HC =3
+CXN_H   =3
+u_t_HC  =3
+rr_i_HC =3
+XM_i_HC =3
+d_min_HC=3
+E442is  =3
+E442pol =3
+dmin_HT =3
+dmex_HT =3
+rrlex_HT=3
+VRatioHT=3
+kloss_HT=3
+ceffclHT=3
+XM43_ref=3
+t_c_HT  =3
+d_ec_HT =3
+E4546is =3
+E4546pol=3
+dmin_IT =3
+dmex_IT =3
+rrlex_IT=3
+VRatioIT=3
+kloss_IT=3
+ceffclIT=3
+XM47_ref=3
+E485is  =3
+E485pol =3
+w_EGV   =3
+dmin_LT =3
+dmex_LT =3
+rrlex_LT=3
+VRatioLT=3
+kloss_LT=3
+ceffclLT=3
+P13_m   =3
+T13_m   =3
+P21_m   =3
+T21_m   =3
+P24_m   =3
+T24_m   =3
+P3_m    =3
+T3_m    =3
+Wf_m    =3
+P43_m   =3
+P47_m   =3
+P5_m    =3
+P25q24  =1
+e_intclr=1
+P25q24cl=1
+P14q13  =1
+WIntcq13=1
+e_exchr =1
+P35q3   =1
+P7q6    =1
+e_ex_ds =1
+P35q3ds =1
+P7q6ds  =1
+CFG8    =1
+CFG18   =1
+ang8ds  =3
+ang18ds =3
+ZCFG8   =2
+ZCFG18  =2
+ZCD8    =2
+ZCD18   =2
+ZPWReqLd=2
+T1_Lf   =2
+P1_Lf   =2
+Pamb_Lf =2
+etrLf   =1
+WRdsLf  =4
+PqPdsLf =4
+EdsLf   =4
+SpdDsLf =4
+BetaDsLf=4
+angVGLf =5
+d_W_VGLf=5
+d_P_VGLf=5
+d_E_VGLf=5
+dANozzLf=5
+T1_Ld   =2
+P1_Ld   =2
+etrLd   =1
+WRdsLd  =4
+PqPdsLd =4
+EdsLd   =4
+SpdDsLd =4
+BetaDsLd=4
+BetaLd  =5
+angVGLd =5
+d_W_VGLd=5
+d_P_VGLd=5
+d_E_VGLd=5
+
+[Design Point]
+HPC.ds_spd=0.934850859648481
+ds_W35R=0.00566260851570484
+Omegads=0.00598731339828696
+HPT.ds_Spd=0.395700144445241
+ds_W44R=0
+PqP44dsqr=0
+LPT.ds_Spd=0.464683110713093
+ds_W5R=0.129478343159605
+TRQ_ds=0
+PWSD_corr_ds=0
+WFqP3_ds=3.28215912319733E-7
+A8_ds=0.192596193433409
+
+[Stations]
+NumberOfStations=19
+
+[Station 1]
+Name=St2
+XMds=0.5
+Areads=0
+
+[Station 2]
+Name=St21
+XMds=0.5
+Areads=0
+
+[Station 3]
+Name=St24
+XMds=0.5
+Areads=0
+
+[Station 4]
+Name=St25
+XMds=0.5
+Areads=0
+
+[Station 5]
+Name=St3
+XMds=0.2
+Areads=0
+
+[Station 6]
+Name=St35
+XMds=0.2
+Areads=0
+
+[Station 7]
+Name=St4
+XMds=0.3
+Areads=0
+
+[Station 8]
+Name=St43
+XMds=0.5
+Areads=0
+
+[Station 9]
+Name=St45
+XMds=0.5
+Areads=0
+
+[Station 10]
+Name=St47
+XMds=0.5
+Areads=0
+
+[Station 11]
+Name=St48
+XMds=0.5
+Areads=0
+
+[Station 12]
+Name=St5
+XMds=0.5
+Areads=0
+
+[Station 13]
+Name=St6
+XMds=0.25
+Areads=0
+
+[Station 14]
+Name=St7
+XMds=0.3
+Areads=0
+
+[Station 15]
+Name=St8
+XMds=0
+Areads=0
+
+[Station 16]
+Name=St13
+XMds=0.5
+Areads=0
+
+[Station 17]
+Name=St14
+XMds=0.5
+Areads=0
+
+[Station 18]
+Name=St16
+XMds=0.5
+Areads=0
+
+[Station 19]
+Name=St18
+XMds=0
+Areads=0
+
+[ACondition]
+Activated=0
+Variable=
+Target=
+Trial1=111111
+Trial2=111111
+Trial3=111111
+Trial4=111111
+Trial5=111111
+TargetValue=0
+GreaterThan=0
+
+[TOInput]
+Line 1=Power Lever Angle, ° =55
+Line 2=Flat Rating Temp, ISA + °C=15
+Line 3=Min Altitude, ft =-2000
+Line 4=Max Altitude, ft=15000
+Line 5=Max Mach No=0.4
+Line 6=T41 - Altitude Gradient °C/1000 ft=1
+GridRowCount=1
+
+[MCoInput]
+Line 1=Power Lever Angle, °=50
+Line 2=Flat Rating Temp, ISA + °C=10
+Line 3=Min Altitude, ft =-2000
+Line 4=Max Altitude, ft=25000
+Line 5=Min Mach No=0
+Line 6=Max Mach No=0.85
+Line 7=SL Delta T41 Max Continuos, °C=30
+Line 8=T41 - Altitude Gradient °C/1000 ft=1
+GridRowCount=1
+
+[MClInput]
+Line 1=Power Lever Angle, °=45
+Line 2=Flat Rating Temp, ISA + °C=10
+Line 3=Min Altitude, ft =-2000
+Line 4=Max Altitude, ft=40000
+Line 5=Min Mach No=0.3
+Line 6=Max Mach No=0.85
+Line 7=SL Delta T41 Max Climb, °C=50
+Line 8=T41 - Altitude Gradient °C/1000 ft=1
+Line 9=Altitude of Peak T41, ft=25000
+Line 10=High Altitude Delta T41 Max Climb, °C=60
+GridRowCount=1
+
+[MCrInput]
+Line 1=Power Lever Angle, °=40
+Line 2=Flat Rating Temp, ISA + °C=10
+Line 3=Min Altitude, ft=-2000
+Line 4=Max Altitude, ft=40000
+Line 5=Min Mach No=0.3
+Line 6=Max Mach No=0.85
+Line 7=SL Delta T41 Max Cruise, °C=90
+Line 8=T41 - Altitude Gradient °C/1000 ft=1
+Line 9=Altitude of Peak T41, ft=25000
+Line 10=High Altitude Delta T41 Max Cruise, °C=80
+GridRowCount=1
+
+[IdleInput]
+Line 1=Power Lever Angle, °=10
+Line 2=Min Altitude, ft =-2000
+Line 3=Max Altitude, ft=36000
+Line 4=Min Mach No=0
+Line 5=Max Mach No=0.85
+GridRowCount=1
+
+[OvlGeo]
+tLSh=0.005
+tISh=0.005
+tHSh=0.005
+dSht=8000
+LPSI=0
+IPSI=0
+HPSI=0
+NtMF=1.3
+NtMA=0
+
+[InlGeo]
+NoSt=8
+ScqH=0
+GwqH=0.2
+CoLR=0.5
+CoAn=35
+CaLR=0.5
+tCas=0.005
+dCas=4000
+NtMF=1
+
+[LPCGeo]
+NStg=1
+wIGV=0
+IGVt=5
+IGVd=4000
+Shpe=0.5
+RRin=0.3
+AspR=2.5
+Aspi=2.5
+Aspo=2.5
+BlGR=0.2
+BlGo=1.2
+RPqC=0.5
+CPqC=0.5
+CEGR=0
+CERR=1
+BPqC=0.5
+BVAn=5
+Bore=0.3
+rtSl=0.04
+tCas=0.005
+dCas=4000
+tCoR=5
+dCoR=800
+BVnt=5
+BVnd=4000
+NtMF=1
+
+[IPCGeo]
+NStg=3
+NVGV=1
+wIGV=0
+IGVt=5
+IGVd=4000
+Shpe=1
+AspR=1.5
+AspN=2
+BldG=0.1
+PqCh=0.5
+Bore=0.3
+rtSl=0.04
+NtMF=1
+tCas=0.005
+dCas=4000
+xCas=10
+cCas=500
+TauC=10
+TauB=0.5
+TauP=1
+TClD=1.5
+dFTc=2
+dETc=2
+dSTc=5
+
+[IC1Geo]
+NoSt=8
+LqRi=0.5
+Slp2=0
+ScPc=60
+tCas=0.005
+dCas=8000
+NtMF=1
+
+[HPCGeo]
+NStg=5
+NRSt=0
+NVGV=1
+wIGV=1
+IGVt=5
+IGVd=4000
+Shpe=1
+RRSe=0
+RRin=0.5
+RRex=0.9
+AspR=1.5
+AspN=2
+BldG=0.1
+PqCh=0.5
+Bore=0.4
+ArDi=1.5
+rtSl=0.04
+NtMF=1
+tCsO=0.005
+dCsO=4000
+tCas=0.005
+dCas=4000
+dHRS=0.3
+RDqR=0.5
+InSw=0
+Bswp=20
+tDif=0.0025
+xCas=10
+cCas=500
+TauC=10
+TauB=0.5
+TauP=1
+TClD=1.5
+dFTc=2
+dETc=2
+dSTc=5
+
+[MBuGeo]
+ReFl=0
+Lcql=2
+Reqi=1.1
+LqRi=1.5
+CaWL=0.4
+tCai=0.002
+tCao=0.005
+dCas=8000
+tCan=0.005
+dCan=8000
+xCan=10
+cCan=500
+TauC=1
+MIqW=2
+NtMF=1
+
+[HPTGeo]
+NStg=1
+Shrd=1
+Ri21=1
+Slp1=0
+Slp2=0
+AspR=1
+AspN=1.5
+BldG=0.25
+PqCh=0.5
+Bore=0.3
+rtSl=0.04
+NtMF=1
+tCsO=0.005
+dCsO=8000
+tCas=0.005
+dCas=8000
+xCas=10
+cCas=500
+TauC=20
+TauB=2
+TauP=5
+TClD=1.5
+dETc=2
+
+[IT1Geo]
+NoSt=8
+Reqi=1.1
+LqRi=0.5
+Slp1=0
+Slp2=25
+ScPc=60
+tCas=0.005
+dCas=8000
+NtMF=1
+
+[IPTGeo]
+NStg=1
+Shrd=1
+Ri21=1.5
+Slp1=0
+Slp2=0
+AspR=1.5
+AspN=1.5
+BldG=0.25
+PqCh=0.5
+Bore=0.6
+rtSl=0.04
+NtMF=1
+tCas=0.005
+dCas=8000
+xCas=10
+cCas=500
+TauC=20
+TauB=2
+TauP=5
+TClD=1.5
+dETc=2
+
+[IT2Geo]
+NoSt=8
+Reqi=1.1
+LqRi=0.5
+Slp1=0
+Slp2=25
+ScPc=60
+tCas=0.005
+dCas=8000
+NtMF=1
+
+[LPTGeo]
+NStg=5
+Shrd=1
+Ri21=1.5
+Slp1=0
+Slp2=0
+AspR=1.5
+AspN=1.5
+BldG=0.25
+PqCh=0.5
+Bore=0.6
+rtSl=0.04
+NtMF=1
+tCas=0.005
+dCas=8000
+xCas=10
+cCas=500
+TauC=20
+TauB=2
+TauP=5
+TClD=1.5
+dETc=2
+
+[ExhGeo]
+NoSt=8
+SCqH=0.5
+SLAn=5
+GwqH=0.2
+CoAn=15
+CoLR=0.75
+CaLR=1.3
+tCai=0.002
+tCao=0.005
+dCas=8000
+NtMF=1
+
+[BypGeo]
+NoSt=8
+xFlP=50
+rFlP=1.1
+xNoz=70
+xStr=10
+ScPc=10
+tStr=0.002
+dStr=4000
+tCai=0.002
+tCao=0.005
+dCas=4000
+NtMF=1
+
+[CNzGeo]
+Type=1
+LinR=0.7
+LcnI=0.7
+CoAn=15
+CoLR=0.5
+AqAI=1
+tCai=0.002
+tCao=0.005
+dCas=8000
+NtMF=1
+
+[LC01]
+MatName=Ti-6Al-4V
+RPMo=4057.02958276984
+xPos=0.711778712481555
+BiRr=0.39543261056289
+BeRr=0.469192928004033
+CRir=1.12980747799162
+CRer=1.0918036739657
+wRim=0.293749946971492
+Bspn=0.678492806695196
+BlLe=0.678492806695196
+Bnum=33
+Bshr=0
+Vnum=77
+VSuA=0.0117271792254969
+TRim=-28.707780662858
+TCsg=-28.707780662858
+TBld=-28.707780662858
+TPlt=-28.707780662858
+TGas=-28.707780662858
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=2000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=37.637222499587
+wWeb=0.169847855647977
+dRqB=0.201278854009982
+wBor=0.1686637642221
+rBor=0.118662507373656
+
+[LC02]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC03]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC04]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC05]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC06]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC07]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC08]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC09]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC10]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC11]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC12]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC13]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC14]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC15]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC16]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC17]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC18]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC19]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LC20]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=0
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC01]
+MatName=Ti-6Al-4V
+RPMo=7500
+xPos=1.05017823707245
+BiRr=0.495285869435103
+BeRr=0.511260945032127
+CRir=0.60182312380516
+CRer=0.60182312380516
+wRim=0.0710248362467047
+Bspn=0.0985497165715452
+BlLe=0.097071470822972
+Bnum=97
+Bshr=0
+Vnum=116
+VSuA=0.00546767214941256
+TRim=-8.37180290959011
+TCsg=-6.8052632886989
+TBld=-6.8052632886989
+TPlt=-6.8052632886989
+TGas=-6.8052632886989
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=44.8726943219156
+wWeb=0.150975424502633
+dRqB=0.737302882588009
+wBor=0.0995490875536988
+rBor=0.148602625719675
+
+[IC02]
+MatName=Ti-6Al-4V
+RPMo=7500
+xPos=1.18158100920126
+BiRr=0.527236020629151
+BeRr=0.537579983764501
+CRir=0.60182312380516
+CRer=0.60182312380516
+wRim=0.0426212018148626
+Bspn=0.0694151216083342
+BlLe=0.0683738947842092
+Bnum=166
+Bshr=0
+Vnum=195
+VSuA=0.00235838916701926
+TRim=50.4878064356805
+TCsg=51.5308429238162
+TBld=51.5308429238162
+TPlt=51.5308429238162
+TGas=51.5308429238162
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=66.0306896886951
+wWeb=0.163632353958274
+dRqB=0.414302342383586
+wBor=0.0690424085425589
+rBor=0.149674163422016
+
+[IC03]
+MatName=Ti-6Al-4V
+RPMo=7500
+xPos=1.26728173732188
+BiRr=0.547923946899852
+BeRr=0.554798907012848
+CRir=0.60182312380516
+CRer=0.60182312380516
+wRim=0.0269495884526541
+Bspn=0.0504616968488103
+BlLe=0.0497047713960781
+Bnum=268
+Bshr=0
+Vnum=309
+VSuA=0.00110563848246519
+TRim=109.134773189568
+TCsg=109.866949136331
+TBld=109.866949136331
+TPlt=109.866949136331
+TGas=109.866949136331
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.179938735259048
+dRqB=0.215931571755265
+wBor=0.0644071725420128
+rBor=0.140224982144485
+
+[IC04]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC05]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC06]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC07]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC08]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC09]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC10]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC11]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC12]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC13]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC14]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC15]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC16]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC17]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC18]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC19]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IC20]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=40
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC01]
+MatName=INCONEL 718
+RPMo=16000
+xPos=1.72877523898406
+BiRr=0.121373154588225
+BeRr=0.134159056367082
+CRir=0.24274630917645
+CRer=0.24274630917645
+wRim=0.0809154363921499
+Bspn=0.114980203698796
+BlLe=0.113255500643314
+Bnum=28
+Bshr=0
+Vnum=33
+VSuA=0.00786079431512365
+TRim=34.1296967845475
+TCsg=55.7279514895385
+TBld=55.7279514895385
+TPlt=55.7279514895385
+TGas=55.7279514895385
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.151093511259251
+dRqB=0.216242162218022
+wBor=0.0525345000676232
+rBor=0.0512550887771628
+
+[HC02]
+MatName=INCONEL 718
+RPMo=16000
+xPos=1.8872848851101
+BiRr=0.14694495814594
+BeRr=0.156659536692702
+CRir=0.24274630917645
+CRer=0.24274630917645
+wRim=0.0589546775572369
+Bspn=0.0909440617571291
+BlLe=0.0895799008307721
+Bnum=42
+Bshr=0
+Vnum=47
+VSuA=0.0045605737825653
+TRim=87.7058521403632
+TCsg=102.084147055471
+TBld=102.084147055471
+TPlt=102.084147055471
+TGas=102.084147055471
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.165949258401968
+dRqB=0.21316099913381
+wBor=0.0464605463248869
+rBor=0.048662262224923
+
+[HC03]
+MatName=INCONEL 718
+RPMo=16000
+xPos=2.0077424133809
+BiRr=0.166374115239464
+BeRr=0.173323593702509
+CRir=0.24274630917645
+CRer=0.24274630917645
+wRim=0.0436412536782778
+Bspn=0.0728974547054633
+BlLe=0.0718039928848814
+Bnum=59
+Bshr=0
+Vnum=66
+VSuA=0.00275400767072897
+TRim=138.13977910933
+TCsg=148.440342621403
+TBld=148.440342621403
+TPlt=148.440342621403
+TGas=148.440342621403
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.150790173353265
+dRqB=0.250944439173802
+wBor=0.0420713571992804
+rBor=0.0485789827838743
+
+[HC04]
+MatName=INCONEL 718
+RPMo=16000
+xPos=2.10207578049601
+BiRr=0.180273072165555
+BeRr=0.185466581776565
+CRir=0.24274630917645
+CRer=0.24274630917645
+wRim=0.033319059739144
+Bspn=0.0598764822053899
+BlLe=0.0589783349723091
+Bnum=80
+Bshr=0
+Vnum=88
+VSuA=0.0017498491578694
+TRim=186.938294994723
+TCsg=194.796538187335
+TBld=194.796538187335
+TPlt=194.796538187335
+TGas=194.796538187335
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.150025087019947
+dRqB=0.20061502673627
+wBor=0.0403606857823662
+rBor=0.0485915991380843
+
+[HC05]
+MatName=INCONEL 718
+RPMo=16000
+xPos=2.17848914003783
+BiRr=0.190660091387575
+BeRr=0.194016094551646
+CRir=0.24274630917645
+CRer=0.24274630917645
+wRim=0.0260431088944373
+Bspn=0.0504082162068393
+BlLe=0.0496520929637367
+Bnum=105
+Bshr=0
+Vnum=113
+VSuA=0.00118731690868972
+TRim=234.862782707765
+TCsg=241.152733753267
+TBld=241.152733753267
+TPlt=241.152733753267
+TGas=241.152733753267
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.150023182096397
+dRqB=0.267565995067845
+wBor=0.0340815005919853
+rBor=0.0486154972615336
+
+[HC06]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC07]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC08]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC09]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC10]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC11]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC12]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC13]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC14]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC15]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC16]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC17]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC18]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC19]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HC20]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=120
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[HT01]
+MatName=INCONEL 718
+RPMo=16000
+xPos=3.09966960386547
+BiRr=0.205163979083874
+BeRr=0.205163979083874
+CRir=0.28496568989552
+CRer=0.290841382674192
+wRim=0.073802289413635
+Bspn=0.0827395572009821
+BlLe=0.0814984638429673
+Bnum=42
+Bshr=1
+Vnum=41
+VSuA=0.00544677792269395
+TRim=225.021333383584
+TCsg=1129.92313023345
+TBld=1129.92313023345
+TPlt=989.615817210102
+TGas=1403.07313023345
+TGrd=200
+TAdd=0
+Type=2
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=9
+RtqB=0.2
+AngW=36.528962966422
+wWeb=0.600258039779833
+dRqB=0.200002243371016
+wBor=0.175689464662749
+rBor=0.0615784143833611
+
+[IT01]
+MatName=INCONEL 718
+RPMo=7500
+xPos=3.35203420179782
+BiRr=0.28000270609865
+BeRr=0.338520565488879
+CRir=0.360451695547225
+CRer=0.417802705253494
+wRim=0.0539605093315396
+Bspn=0.0798655646065949
+BlLe=0.078667581137496
+Bnum=75
+Bshr=1
+Vnum=62
+VSuA=0.00436760485097875
+TRim=592.08244682513
+TCsg=936.254087396809
+TBld=936.254087396809
+TPlt=815.313678657128
+TGas=1209.40408739681
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.150364763186125
+dRqB=0.535495330355852
+wBor=0.063800308513343
+rBor=0.14384824458455
+
+[IT02]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT03]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT04]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT05]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT06]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT07]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT08]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT09]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT10]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT11]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT12]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT13]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT14]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT15]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT16]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT17]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT18]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT19]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[IT20]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=160
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT01]
+MatName=INCONEL 718
+RPMo=4057.02958276984
+xPos=3.64728180920839
+BiRr=0.397867882611942
+BeRr=0.437857227680772
+CRir=0.49320191913518
+CRer=0.549230904650396
+wRim=0.0488668243814141
+Bspn=0.10335385674643
+BlLe=0.101803548895234
+Bnum=115
+Bshr=1
+Vnum=105
+VSuA=0.00358194978768594
+TRim=580.754551286191
+TCsg=828.744819891526
+TBld=828.744819891526
+TPlt=718.555337902374
+TGas=1101.89481989153
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=30.1621498529683
+wWeb=0.150415007288805
+dRqB=0.204011970535501
+wBor=0.114601025931049
+rBor=0.318256787090855
+
+[LT02]
+MatName=INCONEL 718
+RPMo=4057.02958276984
+xPos=3.76944887016193
+BiRr=0.488913750764794
+BeRr=0.519453790167025
+CRir=0.610376202351105
+CRer=0.671521500051813
+wRim=0.0488668243814141
+Bspn=0.136765080735549
+BlLe=0.134713604524516
+Bnum=141
+Bshr=1
+Vnum=128
+VSuA=0.00502492122923708
+TRim=529.451420596353
+TCsg=681.953463265907
+TBld=681.953463265907
+TPlt=586.443116939316
+TGas=955.103463265907
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=55.6608452585396
+wWeb=0.150757896696559
+dRqB=0.528598264000772
+wBor=0.0406009449271259
+rBor=0.224020894457113
+
+[LT03]
+MatName=INCONEL 718
+RPMo=4057.02958276984
+xPos=3.89161593111546
+BiRr=0.551444857405896
+BeRr=0.558558933056609
+CRir=0.697486978002248
+CRer=0.723452455952682
+wRim=0.0488668243814141
+Bspn=0.155467821746212
+BlLe=0.153135804420019
+Bnum=161
+Bshr=1
+Vnum=154
+VSuA=0.0071033324026317
+TRim=448.728471080703
+TCsg=535.162106640287
+TBld=535.162106640287
+TPlt=454.330895976258
+TGas=808.312106640287
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=51.6362027684906
+wWeb=0.15051426777595
+dRqB=0.530677576400621
+wBor=0.0620920150356408
+rBor=0.223467027126255
+
+[LT04]
+MatName=INCONEL 718
+RPMo=4057.02958276984
+xPos=3.99109588630565
+BiRr=0.536877485699762
+BeRr=0.547118977938248
+CRir=0.679494561351557
+CRer=0.703982460810029
+wRim=0.048866824356451
+Bspn=0.149740279261788
+BlLe=0.147494175072861
+Bnum=156
+Bshr=1
+Vnum=151
+VSuA=0.00658117502413667
+TRim=514.861518148096
+TCsg=608.557786370581
+TBld=608.557786370581
+TPlt=520.387007733523
+TGas=881.707786370581
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=69.2216883505742
+wWeb=0.150680327712026
+dRqB=0.921439576753431
+wBor=0.0380547860119633
+rBor=0.223492977725709
+
+[LT05]
+MatName=INCONEL 718
+RPMo=4057.02958276984
+xPos=4.11326294719678
+BiRr=0.556637822008862
+BeRr=0.558558932910823
+CRir=0.713717458130379
+CRer=0.723452455450729
+wRim=0.048866824356451
+Bspn=0.160986579330711
+BlLe=0.158571780640751
+Bnum=163
+Bshr=1
+Vnum=161
+VSuA=0.00756294418707378
+TRim=448.556612917221
+TCsg=535.1621080788
+TBld=535.1621080788
+TPlt=454.33089727092
+TGas=808.3121080788
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=8000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=51.6315366995016
+wWeb=0.150121255988087
+dRqB=0.501927104339813
+wBor=0.0679491786125209
+rBor=0.223535462973849
+
+[LT06]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT07]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT08]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT09]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT10]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT11]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT12]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT13]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT14]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT15]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT16]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT17]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT18]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT19]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[LT20]
+MatName=INCONEL 718
+RPMo=0
+xPos=0
+BiRr=0
+BeRr=0
+CRir=0
+CRer=0
+wRim=0
+Bspn=0
+BlLe=0
+Bnum=0
+Bshr=0
+Vnum=0
+VSuA=0
+TRim=0
+TCsg=0
+TBld=0
+TPlt=0
+TGas=0
+TGrd=100
+TAdd=0
+Type=1
+ABwd=0
+ABrd=0
+OptD=0
+DSrM=10
+DBuM=10
+DBoM=10
+DWeM=10
+DBuS=130
+Brho=4000
+BEls=150
+BThC=10
+cBld=500
+Bthp=10
+RtqB=0.2
+AngW=60
+wWeb=0.2
+dRqB=0.2
+wBor=0
+rBor=0
+
+[InParNames]
+InPar1  =Input Parameter 1              
+InPar2  =Input Parameter 2              
+InPar3  =Input Parameter 3              
+InPar4  =Input Parameter 4              
+InPar5  =Input Parameter 5              
+InPar6  =Input Parameter 6              
+InPar7  =Input Parameter 7              
+InPar8  =Input Parameter 8              
+InPar9  =Input Parameter 9              
+InPar10 =Input Parameter 10             
+InPar11 =Input Parameter 11             
+InPar12 =Input Parameter 12             
+InPar13 =Input Parameter 13             
+InPar14 =Input Parameter 14             
+InPar15 =Input Parameter 15             
+InPar16 =Input Parameter 16             
+InPar17 =Input Parameter 17             
+InPar18 =Input Parameter 18             
+InPar19 =Input Parameter 19             
+InPar20 =Input Parameter 20             
+InPar21 =Input Parameter 21             
+InPar22 =Input Parameter 22             
+InPar23 =Input Parameter 23             
+InPar24 =Input Parameter 24             
+InPar25 =Input Parameter 25             
+InPar26 =Input Parameter 26             
+InPar27 =Input Parameter 27             
+InPar28 =Input Parameter 28             
+InPar29 =Input Parameter 29             
+InPar30 =Input Parameter 30             
+InPar31 =Input Parameter 31             
+InPar32 =Input Parameter 32             
+InPar33 =Input Parameter 33             
+InPar34 =Input Parameter 34             
+InPar35 =Input Parameter 35             
+InPar36 =Input Parameter 36             
+InPar37 =Input Parameter 37             
+InPar38 =Input Parameter 38             
+InPar39 =Input Parameter 39             
+InPar40 =Input Parameter 40             
+InPar41 =Input Parameter 41             
+InPar42 =Input Parameter 42             
+InPar43 =Input Parameter 43             
+InPar44 =Input Parameter 44             
+InPar45 =Input Parameter 45             
+InPar46 =Input Parameter 46             
+InPar47 =Input Parameter 47             
+InPar48 =Input Parameter 48             
+InPar49 =Input Parameter 49             
+InPar50 =Input Parameter 50             
+InPar51 =Input Parameter 51             
+InPar52 =Input Parameter 52             
+InPar53 =Input Parameter 53             
+InPar54 =Input Parameter 54             
+InPar55 =Input Parameter 55             
+InPar56 =Input Parameter 56             
+InPar57 =Input Parameter 57             
+InPar58 =Input Parameter 58             
+InPar59 =Input Parameter 59             
+InPar60 =Input Parameter 60             
+InPar61 =Input Parameter 61             
+InPar62 =Input Parameter 62             
+InPar63 =Input Parameter 63             
+InPar64 =Input Parameter 64             
+InPar65 =Input Parameter 65             
+InPar66 =Input Parameter 66             
+InPar67 =Input Parameter 67             
+InPar68 =Input Parameter 68             
+InPar69 =Input Parameter 69             
+InPar70 =Input Parameter 70             
+InPar71 =Input Parameter 71             
+InPar72 =Input Parameter 72             
+InPar73 =Input Parameter 73             
+InPar74 =Input Parameter 74             
+InPar75 =Input Parameter 75             
+InPar76 =Input Parameter 76             
+InPar77 =Input Parameter 77             
+InPar78 =Input Parameter 78             
+InPar79 =Input Parameter 79             
+InPar80 =Input Parameter 80             
+InPar81 =Input Parameter 81             
+InPar82 =Input Parameter 82             
+InPar83 =Input Parameter 83             
+InPar84 =Input Parameter 84             
+InPar85 =Input Parameter 85             
+InPar86 =Input Parameter 86             
+InPar87 =Input Parameter 87             
+InPar88 =Input Parameter 88             
+InPar89 =Input Parameter 89             
+InPar90 =Input Parameter 90             
+InPar91 =Input Parameter 91             
+InPar92 =Input Parameter 92             
+InPar93 =Input Parameter 93             
+InPar94 =Input Parameter 94             
+InPar95 =Input Parameter 95             
+InPar96 =Input Parameter 96             
+InPar97 =Input Parameter 97             
+InPar98 =Input Parameter 98             
+InPar99 =Input Parameter 99             
+
+[DS Composed Values]
+CPSI=1
+CPKelvin=1
+CPRankine=1
+cp_val1=(E213is-1)/(E221is-1)//CONSTEFF
+cp_val2=(ZP13q2-1)/(ZP21q2-1)//CONSTP
+cp_val3=(St4_HT-St43_HT)/St4_T//dH/T HPT
+cp_val4=(St45_HT-St47_HT)/St45_T//dH/T IPT
+cp_val5=(St48_HT-St5_HT)/St48_T//dH/T LPT
+cp_val6=SFC*0.036//SFC in Kg/daN/h
+
+[OD Composed Values]
+CPSI=1
+CPKelvin=1
+CPRankine=1
+
+[AS Composed Values]
+CPSI=1
+CPKelvin=1
+CPRankine=1
+
+[TR Composed Values]
+CPSI=1
+CPKelvin=1
+CPRankine=1
+
+[Parameterstudy]
+DParameterName1=
+DParLow1=
+DValues1=
+DParStep1=
+DParameterName2=
+DParLow2=
+DValues2=
+DParStep2=
+ODParameterName1=
+ODParLow1=
+ODValues1=
+ODParStep1=
+ODParameterName2=
+ODParLow2=
+ODValues2=
+ODParStep2=
+
+[Design Iteration]
+Selected=1
+
+[Design Iteration1]
+Variable=Inlet Corr. Flow W2Rstd
+Low  Limit=200
+High Limit=800
+Target Name=Net Thrust
+Target Value=28.02
+Checked=true
+
+[Design Iteration2]
+Variable=Isentr.Inner LPC Efficiency
+Low  Limit=0
+High Limit=1
+Target Name=(E213is-1)/(E221is-1)
+Target Value=0.29
+Checked=true
+
+[Design Iteration3]
+Variable=Inner Fan Pressure Ratio
+Low  Limit=1
+High Limit=5
+Target Name=(ZP13q2-1)/(ZP21q2-1)
+Target Value=1.74
+Checked=true
+
+[Design Iteration4]
+Variable=IP Compressor Pressure Ratio
+Low  Limit=1
+High Limit=6
+Target Name=Overall Pressure Ratio P3/P2
+Target Value=50
+Checked=true
+
+[Design Iteration5]
+Variable=Outer Fan Pressure Ratio
+Low  Limit=1
+High Limit=4
+Target Name=Bypass/Core Press Ratio P16/P6
+Target Value=1.1
+Checked=true
+
+[Design Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration21]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration22]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration23]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration24]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration25]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration26]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration27]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration28]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration29]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration30]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration31]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration32]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration33]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration34]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration35]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration36]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration37]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration38]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration39]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration40]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration41]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration42]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration43]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration44]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration45]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration46]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration47]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration48]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration49]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration50]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration51]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration52]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration53]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration54]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration55]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration56]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration57]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration58]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration59]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration60]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration61]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration62]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration63]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration64]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration65]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration66]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration67]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration68]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration69]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration70]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration71]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration72]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration73]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration74]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration75]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration76]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration77]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration78]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration79]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration80]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration81]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration82]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration83]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration84]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration85]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration86]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration87]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration88]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration89]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration90]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration91]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration92]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration93]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration94]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration95]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration96]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration97]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration98]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration99]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration]
+Selected=0
+
+[Off Design Iteration1]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration2]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration3]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration4]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration5]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration21]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration22]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration23]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration24]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration25]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration26]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration27]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration28]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration29]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration30]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration31]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration32]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration33]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration34]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration35]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration36]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration37]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration38]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration39]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration40]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration41]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration42]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration43]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration44]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration45]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration46]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration47]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration48]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration49]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration50]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration51]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration52]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration53]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration54]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration55]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration56]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration57]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration58]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration59]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration60]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration61]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration62]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration63]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration64]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration65]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration66]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration67]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration68]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration69]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration70]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration71]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration72]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration73]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration74]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration75]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration76]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration77]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration78]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration79]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration80]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration81]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration82]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration83]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration84]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration85]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration86]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration87]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration88]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration89]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration90]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration91]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration92]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration93]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration94]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration95]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration96]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration97]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration98]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration99]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration]
+Analysis Method=0
+Selected=0
+
+[AnSyn Iteration1]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration2]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration3]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration4]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration5]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration21]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration22]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration23]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration24]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration25]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration26]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration27]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration28]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration29]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration30]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration31]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration32]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration33]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration34]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration35]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration36]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration37]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration38]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration39]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration40]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration41]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration42]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration43]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration44]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration45]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration46]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration47]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration48]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration49]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration50]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration51]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration52]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration53]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration54]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration55]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration56]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration57]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration58]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration59]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration60]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration61]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration62]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration63]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration64]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration65]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration66]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration67]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration68]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration69]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration70]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration71]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration72]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration73]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration74]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration75]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration76]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration77]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration78]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration79]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration80]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration81]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration82]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration83]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration84]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration85]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration86]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration87]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration88]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration89]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration90]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration91]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration92]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration93]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration94]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration95]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration96]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration97]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration98]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration99]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration]
+Selected=1
+
+[Transient Iteration1]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration2]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration3]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration4]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration5]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration21]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration22]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration23]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration24]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration25]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration26]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration27]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration28]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration29]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration30]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration31]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration32]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration33]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration34]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration35]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration36]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration37]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration38]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration39]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration40]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration41]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration42]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration43]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration44]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration45]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration46]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration47]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration48]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration49]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration50]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration51]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration52]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration53]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration54]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration55]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration56]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration57]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration58]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration59]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration60]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration61]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration62]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration63]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration64]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration65]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration66]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration67]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration68]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration69]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration70]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration71]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration72]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration73]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration74]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration75]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration76]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration77]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration78]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration79]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration80]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration81]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration82]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration83]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration84]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration85]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration86]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration87]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration88]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration89]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration90]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration91]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration92]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration93]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration94]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration95]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration96]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration97]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration98]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transient Iteration99]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Transfer]
+OutptTransfName1=
+InptTransfName1=
+Active1=0
+OutptTransfName2=
+InptTransfName2=
+Active2=0
+OutptTransfName3=
+InptTransfName3=
+Active3=0
+OutptTransfName4=
+InptTransfName4=
+Active4=0
+OutptTransfName5=
+InptTransfName5=
+Active5=0
+OutptTransfName6=
+InptTransfName6=
+Active6=0
+OutptTransfName7=
+InptTransfName7=
+Active7=0
+OutptTransfName8=
+InptTransfName8=
+Active8=0
+OutptTransfName9=
+InptTransfName9=
+Active9=0
+
+[Optimization]
+Variable1=BPR_des Design Bypass Ratio
+Var_low_limit1=0
+Var_high_limit1=0
+Constraint1=cp_val3 (St4_HT-St43_HT)/St4_T
+Con_low_limit1=0
+Con_high_limit1=0
+OffDesCon1=0
+Variable2=T4_D    Burner Exit Temperature        B
+Var_low_limit2=0
+Var_high_limit2=0
+Constraint2=cp_val5 (St48_HT-St5_HT)/St48_T
+Con_low_limit2=0
+Con_high_limit2=0
+OffDesCon2=0
+Variable3=PWX     Power Offtake                  D
+Var_low_limit3=0
+Var_high_limit3=0
+Constraint3=T4      Burner Exit Temperature T4     B
+Con_low_limit3=0
+Con_high_limit3=0
+OffDesCon3=0
+Variable4=Undefined
+Var_low_limit4=0
+Var_high_limit4=0
+Constraint4=P16q6   Bypass/Core Press Ratio P16/P6
+Con_low_limit4=0
+Con_high_limit4=0
+OffDesCon4=0
+Variable5=Undefined
+Var_low_limit5=0
+Var_high_limit5=0
+Constraint5=d_t_LC  LPC Inlet Tip Diameter         J
+Con_low_limit5=0
+Con_high_limit5=0
+OffDesCon5=0
+Variable6=Undefined
+Var_low_limit6=0
+Var_high_limit6=0
+Constraint6=Undefined
+Con_low_limit6=0
+Con_high_limit6=0
+OffDesCon6=0
+Variable7=Undefined
+Var_low_limit7=0
+Var_high_limit7=0
+Constraint7=Undefined
+Con_low_limit7=0
+Con_high_limit7=0
+OffDesCon7=0
+Variable8=Undefined
+Var_low_limit8=0
+Var_high_limit8=0
+Constraint8=Undefined
+Con_low_limit8=0
+Con_high_limit8=0
+OffDesCon8=0
+Variable9=Undefined
+Var_low_limit9=0
+Var_high_limit9=0
+Constraint9=Undefined
+Con_low_limit9=0
+Con_high_limit9=0
+OffDesCon9=0
+Variable10=Undefined
+Var_low_limit10=0
+Var_high_limit10=0
+Constraint10=Undefined
+Con_low_limit10=0
+Con_high_limit10=0
+OffDesCon10=0
+Variable11=Undefined
+Var_low_limit11=0
+Var_high_limit11=0
+Constraint11=Undefined
+Con_low_limit11=0
+Con_high_limit11=0
+OffDesCon11=0
+Variable12=Undefined
+Var_low_limit12=0
+Var_high_limit12=0
+Constraint12=Undefined
+Con_low_limit12=0
+Con_high_limit12=0
+OffDesCon12=0
+FigureOfMerit=cp_val6 SFC*0.036
+OffDesignFigureOfMerit=Undefined
+MaximizeFom=0
+
+[Limiter]
+PowerSelection=0
+SEPRDef=1
+NHmin=0
+NHmin setting=0
+WFmin=0
+WFmin setting=0
+NHRmin=0
+NHRmin setting=0
+P3min=0
+P3min setting=0
+MinLimiter1=0
+MinLimiterIndex1=0
+MinLimiter1 setting=0
+MinLimiter2=0
+MinLimiterIndex2=0
+MinLimiter2 setting=0
+MinLimiter3=0
+MinLimiterIndex3=0
+MinLimiter3 setting=0
+NL=0
+NL setting=0
+NLR=0
+NLR setting=0
+NH=0
+NH setting=0
+NHR=0
+NHR setting=0
+T3=0
+T3 setting=0
+P3=0
+P3 setting=0
+T41=0
+T41 setting=0
+T45=0
+T45 setting=0
+T5=0
+T5 setting=0
+Trq=0
+Trq setting=0
+Wf=0
+Wf setting=0
+PW=0
+PW setting=0
+EPR=0
+EPR setting=0
+Limiter1=0
+LimiterIndex1=0
+Limiter1 setting=0
+Limiter2=0
+LimiterIndex2=0
+Limiter2 setting=0
+Limiter3=0
+LimiterIndex3=0
+Limiter3 setting=0
+
+[Variable Geometry]
+Compressor=0
+a_vg=1
+b_vg=1
+c_vg=0.01
+
+[Auto Bleed]
+Setting=0
+Max Value 1=0
+Lower Switchpoint 1=0
+Upper Switchpoint 1=0
+Max Value 2=0
+Lower Switchpoint 2=0
+Upper Switchpoint 2=0
+
+[Flight Envelope]
+Max Alt=0
+Alt Pts=0
+Alt Pts 1=0
+Alt Pts 2=0
+Min EAS=0
+Max EAS=0
+EAS Pts=0
+Max XM=0
+
+[Control Tables]
+ln0=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln1=off Low Press Spool Speed NL [%]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln2=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln3=off Corr Low Spool Speed NLR [%]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln4=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln5=off High Press Spool Speed NH [%]   0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln6=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln7=off Corr High Spool Speed NHR [%]   0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln8=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln9=off Comp Exit Temperature T3 [K]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln10=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln11=off Compr Exit Pressure P3 [kPa]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln12=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln13=off HPT Rotor Inlet Temp T41 [K]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln14=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln15=off LPT Inlet Temp T48 [K]          0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln16=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln17=off Turb Exit Temperature T5 [K]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln18=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln19=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln20=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln21=off Fuel Flow [kg/s]                0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln22=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln23=off Net Thrust [kN]                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln24=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln25=off Engine Pressure Ratio EPR       0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln26=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln27=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln28=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln29=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln30=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln31=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln32=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln33=off Delta HPT Capacity [%]          0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln34=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln35=off Delta IPT Capacity [%]          0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln36=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln37=off Delta LPT Capacity [%]          0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln38=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln39=off Delta Core Nozzle Area [%]      0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln40=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln41=off Delta Bypass Nozzle Area [%]    0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln42=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln43=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln44=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln45=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln46=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln47=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln48=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln49=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln50=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln51=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln52=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln53=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln54=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln55=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln56=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln57=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln58=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln59=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln60=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln61=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln62=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln63=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln64=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln65=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln66=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln67=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln68=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln69=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln70=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln71=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln72=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln73=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln74=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln75=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
